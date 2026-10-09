@@ -1,21 +1,104 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Layout Styles with Aside</title>
+<title>My Website Layout</title>
 
 <style>
+body {
+    width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    border: 2px solid #222;
+}
 
-/* Write your CSS here */
+header {
+    background: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 
+nav {
+    background: #222;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+section {
+    float: left;
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+aside {
+    float: right;
+    width: 35%;
+    background: #E3F2FD;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    background: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+h2 {
+    color: #1565C0;
+}
 </style>
-
 </head>
 
 <body>
 
-<!-- Write your HTML code here -->
+<header>
+    <h1>Welcome to My Website</h1>
+    <p>Learn, Explore and Grow</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>About Our Website</h2>
+    <p>
+        Welcome to our website. This section provides
+        useful information about our services and activities.
+    </p>
+
+    <p>
+        HTML is used to create the webpage structure,
+        while CSS is used to design the layout, colors,
+        spacing, and appearance.
+    </p>
+</section>
+
+<aside>
+    <h2>Latest Updates</h2>
+    <p>New courses are available now.</p>
+    <p>Explore our services and learn new skills.</p>
+</aside>
+
+<footer>
+    <p>&copy; 2026 My Website. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
+```
